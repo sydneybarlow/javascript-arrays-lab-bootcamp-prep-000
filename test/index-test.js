@@ -41,7 +41,7 @@ describe('Arrays', function() {
 
   describe('prependKitten(name)', function prependKitten(name) {
     it('prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-     return [element,..."Arnold"]
+     return [name,..."Arnold"]
     })
   })
 
