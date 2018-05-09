@@ -35,15 +35,13 @@ describe('Arrays', function() {
 
   describe('appendKitten(name)', function appendKitten(name) {
     it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-      
+      return [..."Bob", element]
     })
   })
 
   describe('prependKitten(name)', function prependKitten(name) {
     it('prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-      expect(prependKitten("Arnold")).toEqual(["Arnold", "Milo", "Otis", "Garfield"])
-
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
+     return [element,..."Arnold"]
     })
   })
 
